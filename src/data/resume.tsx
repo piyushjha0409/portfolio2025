@@ -17,19 +17,19 @@ const DATA = {
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://github.com/piyushjha",
+        url: "https://github.com/piyushjha0409",
         icon: Icons.github,
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://linkedin.com/in/piyushjha",
+        url: "https://linkedin.com/in/piyushjha0409",
         icon: Icons.linkedin,
         navbar: true,
       },
       X: {
         name: "X",
-        url: "https://x.com/piyushjha",
+        url: "https://x.com/piyushJha__",
         icon: Icons.x,
         navbar: true,
       },
