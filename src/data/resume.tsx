@@ -6,10 +6,11 @@ const DATA = {
   name: "Piyush Jha",
   initials: "PJ",
   url: "https://piyushjha.xyz",
-  avatarUrl:""
+  avatarUrl: "./pfp.jpeg",
   location: "India",
   locationLink: "https://www.google.com/maps/place/india",
   description: "Full Stack Engineer with experience in React, Node.js, and blockchain technologies.",
+  summary: "Software developer with a curious mindset",
   contact: {
     email: "peeyush0409@gmail.com",
     tel: "+91 8700885137",
@@ -34,10 +35,15 @@ const DATA = {
       },
     },
   },
+  navbar: [
+    { href: "/", icon: HomeIcon, label: "Home" },
+    { href: "https://piyushjha.hashnode.dev/what-i-have-learnt-in-2022-as-a-full-stack-developer", icon: NotebookIcon, label: "Blog" },
+  ],
   work: [
     {
       company: "Hibana Labs LLC",
       href: "https://hibanalabs.com",
+      logoUrl: "./VSC-Logo.png",
       badges: [],
       location: "USA, (Remote)",
       title: "Software Engineer",
@@ -48,6 +54,7 @@ const DATA = {
     {
       company: "Adigos LLP",
       href: "https://adigos.com",
+      logoUrl: "./Adigos.jpeg",
       badges: [],
       location: "India, (Remote)",
       title: "Full Stack Developer Intern",
@@ -60,6 +67,7 @@ const DATA = {
     {
       school: "Guru Gobind Singh Indraprastha University",
       href: "https://ipu.ac.in",
+      logoUrl: "./ggsipu.png",
       degree: "Bachelor of Computer Science",
       start: "Sep 2020",
       end: "Sep 2023",
@@ -69,6 +77,8 @@ const DATA = {
     {
       title: "Askmesol.fun",
       href: "https://askmesol.fun",
+      image: "/askmesol.png                   ",
+      video: "",
       dates: "Sep 2023",
       active: true,
       description: "Creator can create a blink for AMA title and share to their followers. User can ask question to their creators anonymously. User can put a bid on their question for getting the reply as quick as possible. Developed a backend for handling all the serverless apis and storing data into mongodb database.",
@@ -89,6 +99,8 @@ const DATA = {
     {
       title: "NFT for S3SH Game in Ethereum",
       href: "https://github.com/piyushjha/s3sh-nft",
+      image: "/S3SH.png",
+      video: "",
       dates: "Sep 2023",
       active: true,
       description: "Developed a membership-based NFT system allowing access to a slot machine game with rewards. Limited minting to one token per user and distributed winnings as NFTs. Collaborated with multiple full stack devs for this project to achieve the goal.",
@@ -97,6 +109,23 @@ const DATA = {
         {
           type: "Source",
           href: "https://github.com/piyushjha/s3sh-nft",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+    },
+    {
+      title: "Resume builder",
+      href: "https://resume-builder-ineuron.netlify.app/",
+      image: "/resumeBuilder.png",
+      video: "",
+      dates: "Sep 2023",
+      active: true,
+      description: "Developed a resume builder site for a hackathon project within 24hrs.",
+      technologies: ["reactjs", "nodejs", "expressjs", "mongodb", "ether.js", "solidity", "typescript"],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/piyushjha0409/Resume-Builder",
           icon: <Icons.github className="size-3" />,
         },
       ],
