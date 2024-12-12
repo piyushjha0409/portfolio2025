@@ -152,7 +152,7 @@ const DATA = {
       links: [
         {
           type: "Source",
-          href: "https://github.com/piyushjha0409/Resume-Builder",
+          href: "https://github.com/piyushjha0409/discussiondesk",
           icon: <Icons.github className="size-3" />,
         },
         {
