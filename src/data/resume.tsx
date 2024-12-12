@@ -66,7 +66,7 @@ const DATA = {
   education: [
     {
       school: "Guru Gobind Singh Indraprastha University",
-      href: "https://ipu.ac.in",
+      href: "http://www.ipu.ac.in/",
       logoUrl: "./ggsipu.png",
       degree: "Bachelor of Computer Science",
       start: "Sep 2020",
@@ -98,7 +98,7 @@ const DATA = {
     },
     {
       title: "NFT for S3SH Game in Ethereum",
-      href: "https://github.com/piyushjha/s3sh-ww",
+      href: "https://web3athon2023.vercel.app",
       image: "/S3SH.png",
       video: "",
       dates: "Sep 2023",
@@ -108,7 +108,7 @@ const DATA = {
       links: [
         {
           type: "Source",
-          href: "https://github.com/piyushjha/s3sh-nft",
+          href: "https://github.com/piyushjha0409/web3athon2023",
           icon: <Icons.github className="size-3" />,
         },
         {
@@ -199,7 +199,7 @@ const DATA = {
 
     },
     {
-      title: "Tech-a-Hackathon",
+      title: "Tech-a-thon",
       organization: "Ineuron",
       date: "2022",
       description: "Won first place in the Ineuron Hackathon for innovative project development",

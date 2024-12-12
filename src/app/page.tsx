@@ -163,7 +163,7 @@ export default function Page() {
                 </div>
                 <div className="flex items-center py-12">
                   <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                    I am currently exporing web3 ecosysetm
+                    I am currently exploring web3 ecosysetm
                   </h2>
                   <div className="">
                   <Icons.globe className="size-24" />
