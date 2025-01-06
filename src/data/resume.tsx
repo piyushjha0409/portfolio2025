@@ -1,4 +1,4 @@
-//TODO: need to change this data 
+//TODO: need to change this data
 import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
@@ -9,7 +9,8 @@ const DATA = {
   avatarUrl: "/pfp.jpeg",
   location: "India",
   locationLink: "https://www.google.com/maps/place/india",
-  description: "Helping Web2 Businesses adapt Web3 | Full stack engineer | Web3 | Smart Contracts",
+  description:
+    "Helping Web2 Businesses adapt Web3 | Full stack engineer | Web3 | Smart Contracts",
   summary: "Software developer with a curious mindset",
   contact: {
     email: "peeyush0409@gmail.com",
@@ -37,7 +38,11 @@ const DATA = {
   },
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "https://piyushjha.hashnode.dev/what-i-have-learnt-in-2022-as-a-full-stack-developer", icon: NotebookIcon, label: "Blog" },
+    {
+      href: "https://piyushjha.hashnode.dev/what-i-have-learnt-in-2022-as-a-full-stack-developer",
+      icon: NotebookIcon,
+      label: "Blog",
+    },
   ],
   work: [
     {
@@ -49,7 +54,8 @@ const DATA = {
       title: "Software Engineer",
       start: "Oct 2023",
       end: "Dec 2024",
-      description: "Designed and implemented a secure user authentication page, improving site security. Built a complete Crypto Exchange Website, now serving 1,000+ daily users. Developed APIs with Node.js and integrated them into React UI, enhancing functionality and reducing load times by 30%. Created RESTful APIs, like KYC and OTP verification, reducing fraud by 25%.",
+      description:
+        "Working on VSC network powered by the HIVE blockchain ($157M market cap). Developing a mobile responsive frontend for Bitcoin wrapping provider for vsc defi for user interaction. Building a decentralized exchange for swapping hive token and hbd tokens on vsc defi. Learnt using making apis in graphql and initializing the graphql client. Worked on 3speak UI refactor for continuous improvement user experience - 3speak-nextjs-tan.vercel.app",
     },
     {
       company: "Adigos LLP",
@@ -60,7 +66,7 @@ const DATA = {
       title: "Full Stack Developer Intern",
       start: "Oct 2022",
       end: "Apr 2023",
-      description: "Working on VSC network powered by the HIVE blockchain ($157M market cap). Developing a mobile responsive frontend for Bitcoin wrapping provider for vsc defi for user interaction. Building a decentralized exchange for swapping hive token and hbd tokens on vsc defi. Learnt using making apis in graphql and initializing the graphql client. Worked on 3speak UI refactor for continuous improvement user experience - 3speak-nextjs-tan.vercel.app",
+      description: "Designed and implemented a secure user authentication page, improving site security. Built a complete Crypto Exchange Website, now serving 1,000+ daily users. Developed APIs with Node.js and integrated them into React UI, enhancing functionality and reducing load times by 30%. Created RESTful APIs, like KYC and OTP verification, reducing fraud by 25%.",
     },
   ],
   education: [
@@ -81,8 +87,16 @@ const DATA = {
       video: "/askmesol.mp4",
       dates: "Dec 2024",
       active: true,
-      description: "Creator can create a blink for AMA title and share to their followers. User can ask question to their creators anonymously. User can put a bid on their question for getting the reply as quick as possible. Developed a backend for handling all the serverless apis and storing data into mongodb database.",
-      technologies: ["next.js", "mongodb", "web3.js", "solana", "prisma", "typescript"],
+      description:
+        "Creator can create a blink for AMA title and share to their followers. User can ask question to their creators anonymously. User can put a bid on their question for getting the reply as quick as possible. Developed a backend for handling all the serverless apis and storing data into mongodb database.",
+      technologies: [
+        "next.js",
+        "mongodb",
+        "web3.js",
+        "solana",
+        "prisma",
+        "typescript",
+      ],
       links: [
         {
           type: "Source",
@@ -103,8 +117,17 @@ const DATA = {
       video: "",
       dates: "Sep 2023",
       active: true,
-      description: "Developed a membership-based NFT system allowing access to a slot machine game with rewards. Limited minting to one token per user and distributed winnings as NFTs. Collaborated with multiple full stack devs for this project to achieve the goal.",
-      technologies: ["reactjs", "nodejs", "expressjs", "mongodb", "ether.js", "solidity", "typescript"],
+      description:
+        "Developed a membership-based NFT system allowing access to a slot machine game with rewards. Limited minting to one token per user and distributed winnings as NFTs. Collaborated with multiple full stack devs for this project to achieve the goal.",
+      technologies: [
+        "reactjs",
+        "nodejs",
+        "expressjs",
+        "mongodb",
+        "ether.js",
+        "solidity",
+        "typescript",
+      ],
       links: [
         {
           type: "Source",
@@ -125,8 +148,17 @@ const DATA = {
       video: "",
       dates: "Feb 2023",
       active: true,
-      description: "Developed a resume builder site for a hackathon project within 24hrs.",
-      technologies: ["reactjs", "nodejs", "expressjs", "mongodb", "ether.js", "solidity", "typescript"],
+      description:
+        "Developed a resume builder site for a hackathon project within 24hrs.",
+      technologies: [
+        "reactjs",
+        "nodejs",
+        "expressjs",
+        "mongodb",
+        "ether.js",
+        "solidity",
+        "typescript",
+      ],
       links: [
         {
           type: "Source",
@@ -147,8 +179,17 @@ const DATA = {
       video: "/dd.mp4",
       dates: "Dec 2022",
       active: true,
-      description: "Developed a resume builder site for a hackathon project within 24hrs.",
-      technologies: ["reactjs", "nodejs", "expressjs", "mongodb", "ether.js", "solidity", "typescript"],
+      description:
+        "Developed a resume builder site for a hackathon project within 24hrs.",
+      technologies: [
+        "reactjs",
+        "nodejs",
+        "expressjs",
+        "mongodb",
+        "ether.js",
+        "solidity",
+        "typescript",
+      ],
       links: [
         {
           type: "Source",
@@ -178,7 +219,6 @@ const DATA = {
     "Prisma",
     "Docker",
     "System Design",
-
   ],
   achievements: [
     {
@@ -187,7 +227,7 @@ const DATA = {
       date: "2022",
       description: "Completed comprehensive MERN stack development course",
       image: "/udemy.png",
-      links: []
+      links: [],
     },
     {
       title: "Bitcoin Development certification",
@@ -195,30 +235,32 @@ const DATA = {
       date: "2022",
       description: "Certified in Bitcoin development and blockchain technology",
       image: "/saylor.png",
-      links: []
-
+      links: [],
     },
     {
       title: "Tech-a-thon",
       organization: "Ineuron",
       date: "2022",
-      description: "Won first place in the Ineuron Hackathon for innovative project development",
+      description:
+        "Won first place in the Ineuron Hackathon for innovative project development",
       image: "/ineuron-logo.png",
-      links: []
+      links: [],
     },
     {
       title: "Web3athon",
       organization: "Consensus 2023",
       date: "2023",
-      description: "Won first place in the Ineuron Hackathon for innovative project development",
+      description:
+        "Won first place in the Ineuron Hackathon for innovative project development",
       image: "/concensus2023.png",
-      links: []
+      links: [],
     },
     {
       title: "Open Source Contributor",
       organization: "Various Projects",
       date: "2022-2024",
-      description: "Active contributor to multiple open source projects in the blockchain and web development space",
+      description:
+        "Active contributor to multiple open source projects in the blockchain and web development space",
       image: "",
       links: [
         {
@@ -226,10 +268,9 @@ const DATA = {
           href: "https://github.com/DevLeonardoCommunity/github-stats/pull/19",
           icon: <Icons.github className="size-3" />,
         },
-      ]
-    }
+      ],
+    },
   ],
 };
 
 export default DATA;
-
