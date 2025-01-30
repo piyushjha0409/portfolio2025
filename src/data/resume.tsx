@@ -66,7 +66,8 @@ const DATA = {
       title: "Full Stack Developer Intern",
       start: "Oct 2022",
       end: "Apr 2023",
-      description: "Designed and implemented a secure user authentication page, improving site security. Built a complete Crypto Exchange Website, now serving 1,000+ daily users. Developed APIs with Node.js and integrated them into React UI, enhancing functionality and reducing load times by 30%. Created RESTful APIs, like KYC and OTP verification, reducing fraud by 25%.",
+      description:
+        "Designed and implemented a secure user authentication page, improving site security. Built a complete Crypto Exchange Website, now serving 1,000+ daily users. Developed APIs with Node.js and integrated them into React UI, enhancing functionality and reducing load times by 30%. Created RESTful APIs, like KYC and OTP verification, reducing fraud by 25%.",
     },
   ],
   education: [
@@ -80,6 +81,36 @@ const DATA = {
     },
   ],
   projects: [
+    {
+      title: "LLM Chatbot",
+      href: "https://llm-chatbot-plum.vercel.app/",
+      image: "",
+      video: "/chatbot.mp4",
+      dates: "Jan 2025",
+      active: true,
+      description:
+        "You can talk to LLM and can save the conversations and chat history also you can update the conversation history and title",
+      technologies: [
+        "React.js",
+        "Node.js",
+        "LLM Integration",
+        "Gemini",
+        "prisma",
+        "typescript",
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/piyushjha0409/llm-chatbot",
+          icon: <Icons.github className="size-3" />,
+        },
+        {
+          type: "Website",
+          href: "https://llm-chatbot-plum.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+    },
     {
       title: "Askmesol.fun",
       href: "https://askmesol.fun",
