@@ -83,7 +83,7 @@ const DATA = {
   projects: [
     {
       title: "LLM Chatbot",
-      href: "https://llm-chatbot-plum.vercel.app/",
+      href: "https://talkbotai.netlify.app/",
       image: "",
       video: "/chatbot.mp4",
       dates: "Jan 2025",
@@ -93,8 +93,8 @@ const DATA = {
       technologies: [
         "React.js",
         "Node.js",
-        "LLM Integration",
-        "Gemini",
+        "LLM API Integration",
+        "Gemini model",
         "prisma",
         "typescript",
       ],
