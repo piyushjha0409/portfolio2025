@@ -82,7 +82,7 @@ const DATA = {
   ],
   projects: [
     {
-      title: "LLM Chatbot",
+      title: "AI Chatbot",
       href: "https://talkbotai.netlify.app/",
       image: "",
       video: "/chatbot.mp4",
