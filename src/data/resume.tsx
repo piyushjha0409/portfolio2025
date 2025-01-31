@@ -106,7 +106,7 @@ const DATA = {
         },
         {
           type: "Website",
-          href: "https://llm-chatbot-plum.vercel.app/",
+          href: "https://talkbotai.netlify.app/",
           icon: <Icons.globe className="size-3" />,
         },
       ],
