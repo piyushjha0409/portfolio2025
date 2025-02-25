@@ -82,6 +82,37 @@ const DATA = {
   ],
   projects: [
     {
+      title: "TradeX (!!GRANT WINNER!!)",
+      href: "https://tradex-ai.netlify.app/",
+      image: "",
+      video: "/tradex-demo-video.mp4",
+      dates: "Jan 2025",
+      active: true,
+      description:
+        "You can talk to LLM and it can manage your wallet and manage transactions, The AI agent will process your transactions and give",
+      technologies: [
+        "Next.js",
+        "Solana AI agent kit",
+        "LLM API Integration",
+        "Gemini model",
+        "MongoDB",
+        "prisma",
+        "typescript",
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/piyushjha0409/llm-chatbot",
+          icon: <Icons.github className="size-3" />,
+        },
+        {
+          type: "Website",
+          href: "https://talkbotai.netlify.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+    },
+    {
       title: "AI Chatbot",
       href: "https://talkbotai.netlify.app/",
       image: "",

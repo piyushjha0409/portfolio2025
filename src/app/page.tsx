@@ -155,7 +155,7 @@ export default function Page() {
       </section>
       <section id="achievements">
         <div className="space-y-12 w-full py-12">
-          <BlurFade delay={BLUR_FADE_DELAY * 13}>  
+          <BlurFade delay={BLUR_FADE_DELAY * 13}>
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
                 <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
@@ -166,11 +166,12 @@ export default function Page() {
                     I am currently exploring web3 ecosysetm
                   </h2>
                   <div className="">
-                  <Icons.globe className="size-24" />
+                    <Icons.globe className="size-24" />
                   </div>
                 </div>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Interested in exploring different chains like Ethereum and Solana, attending events and hackathons!
+                  Interested in exploring different chains like Ethereum and
+                  Solana, attending events and hackathons!
                 </p>
               </div>
             </div>
