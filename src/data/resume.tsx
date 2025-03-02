@@ -83,7 +83,7 @@ const DATA = {
   projects: [
     {
       title: "TradeX (!!GRANT WINNER!!)",
-      href: "https://tradex-ai.netlify.app/",
+      href: "https://tradex-ai.vercel.app/",
       image: "",
       video: "/tradex-demo-video.mp4",
       dates: "Jan 2025",
