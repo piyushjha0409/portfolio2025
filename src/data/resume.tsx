@@ -102,12 +102,12 @@ const DATA = {
       links: [
         {
           type: "Source",
-          href: "https://github.com/piyushjha0409/llm-chatbot",
+          href: "https://github.com/e-man07/tradeX.ai",
           icon: <Icons.github className="size-3" />,
         },
         {
           type: "Website",
-          href: "https://talkbotai.netlify.app/",
+          href: "https://tradex-ai.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
       ],
