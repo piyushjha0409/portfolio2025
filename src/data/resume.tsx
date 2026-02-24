@@ -46,6 +46,18 @@ const DATA = {
   ],
   work: [
     {
+      company: "Monad Foundation",
+      href: "https://monad.xyz",
+      logoUrl: "./monad_foundation_logo.jpeg",
+      badges: [],
+      location: "India, (Contract)",
+      title: "Developer Evangelist (Part-time Contribution)",
+      start: "Nov 2025",
+      end: "Present",
+      description:
+        "Organized 7+ offline hackathons across tier-1 and tier-2 cities in India with end-to-end ownership. Mentored 50+ projects across hackathons and engaged 700+ developers through community channels, GitHub discussions, and in-person events. Delivered 10+ public speaking sessions at meetups, workshops, and developer forums. Created developer resources including tutorials, technical walkthroughs, reference projects, and documentation.",
+    },
+    {
       company: "Botsahi",
       href: "https://alpha.botsahi.com",
       logoUrl: "",
@@ -93,6 +105,34 @@ const DATA = {
     },
   ],
   projects: [
+    {
+      title: "Lavinth (!!$10K GRANT WINNER!!)",
+      href: "https://lavinth.com",
+      image: "",
+      video: "/demo_video.mp4",
+      dates: "2025",
+      active: true,
+      description:
+        "A security layer on Solana with 55+ API endpoints across 7 security services, 7 threat intelligence sources including GoPlus API and community blocklists, 16 major CEXs tracked for freeze request workflows, and 24/7 real-time monitoring with SSE-powered alerts.",
+      technologies: [
+        "Next.js",
+        "Solana",
+        "Node.js",
+        "Shadcn",
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/piyushjha0409/Lavinth",
+          icon: <Icons.github className="size-3" />,
+        },
+        {
+          type: "Website",
+          href: "https://lavinth.com",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+    },
     {
       title: "TradeX (!!GRANT WINNER!!)",
       href: "https://tradex-ai.vercel.app/",
@@ -233,37 +273,6 @@ const DATA = {
         {
           type: "Source",
           href: "https://github.com/piyushjha0409/Resume-Builder",
-          icon: <Icons.github className="size-3" />,
-        },
-        {
-          type: "Website",
-          href: "https://resume-builder-ineuron.netlify.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-    },
-    {
-      title: "Discussion Desk",
-      href: "https://discussiondesk.pythonanywhere.com/",
-      image: "",
-      video: "/dd.mp4",
-      dates: "Dec 2022",
-      active: true,
-      description:
-        "Developed a resume builder site for a hackathon project within 24hrs.",
-      technologies: [
-        "reactjs",
-        "nodejs",
-        "expressjs",
-        "mongodb",
-        "ether.js",
-        "solidity",
-        "typescript",
-      ],
-      links: [
-        {
-          type: "Source",
-          href: "https://github.com/piyushjha0409/discussiondesk",
           icon: <Icons.github className="size-3" />,
         },
         {
